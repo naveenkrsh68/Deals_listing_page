@@ -1,0 +1,246 @@
+body {
+    font-family:Roboto Condensed;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:Roboto Condensed;
+}
+
+p{
+    font-size:17px;   
+}
+
+.navbar {
+    border-radius: 0;
+    font-family:Roboto Condensed;
+    font-weight:600;
+}
+
+.navbar-inverse {
+    background-color: #e0e0d2;
+    border-color: #c0c0a5;
+	border-bottom:3px solid #d5d5c3;
+	margin:0;
+}
+@media (min-width: 768px){
+	.navbar-right {
+		margin-right:0!important;
+	}
+}
+
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav>li>a {
+    color: #A9A9A9;
+	text-shadow:none;
+	font-weight:normal;
+	text-transform:uppercase;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-nav>li>a:hover {
+    background-color:none;
+	border:1px solid #A9A9A9;
+	color: #000;
+}
+
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+    background-color: #34495e;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+    background-color: #34495e;
+}
+
+.navbar-brand {
+	color:#000!important;
+	text-shadow: none;
+}
+
+.navbar-brand span:nth-child(1) {
+	border-bottom:2px solid red;
+}	
+
+.btn-margin-left {
+    margin-left: 5px;
+}
+.btn-margin-right {
+    margin-right: 10px;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #c0392b;
+    border-color: #c0392b;
+}
+
+.btn-danger:hover {
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #27ae60;
+    border-color: #27ae60;
+}
+
+.btn-success:hover {
+    background-color: #2ecc71;
+    border-color: #2ecc71;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
+
+.btn-primary:hover {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+
+.badge-danger {
+    background-color: #e74c3c;
+}
+html,
+body { 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  margin-top: -20px;
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.site-wrapper-inner .col-md-12 {
+  position:absolute;
+  margin-top:33%;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding:5px;
+}
+h1.cover-heading {
+	letter-spacing:0.5em;
+	
+}
+form.form-horizontal {
+    margin-left: 10%;
+}
+.table-hover tr {
+	border-top: 0!important;
+}
+.table thead th{
+	text-shadow:none;
+	font-weight:normal;
+	font-size:13px;
+	color:#b5b5b5!important;
+}
+
+.table-hover tbody > tr > td {
+	text-shadow:none;
+	font-weight:normal;
+	font-size:13px;
+	color:#b5b5b5!important;	
+}
+tr.collapse.in {
+  display:table-row;
+}
+#accordion h3 {
+	color:#000;
+	text-transform:uppercase;
+}
+.inside_table_row > tbody > tr > td {
+    color: #3dc0f4!important;
+    border-style: dotted;
+    border-width: 1px;
+    border-color: #ccc;
+	border-top:0;
+	border-left:0;
+	font-size: 14px;
+}
+.inside_table_row > tbody > tr > td:last-child {
+    border-right: 0;
+}
+.inside_table_row > tbody > tr:last-child td {
+    border-bottom: 0;
+}
+.inside_table_row > tbody > tr > td > p{
+	color:#adadad;
+	font-size:10px;
+	text-transform:uppercase;
+}
+.pull-right p {
+	color:#b5b5b5;
+	font-size:12px;
+	text-transform:uppercase;
+	margin-top: 6%;
+}
+.edit_deal {
+	background-color:#004466;
+	height:50px;
+	border-bottom:1px solid #fff;
+}
+.close_deal {
+	background-color:#004466;
+	height:50px;
+	border-bottom:1px solid #fff;
+}
+.close_btn {
+	background-color:#71a1ba;
+	height:100px;
+}
+.edit_deal a{
+	text-decoration:none;
+	color:#fff;
+	text-transform:uppercase;
+	margin-top: 16px;
+	margin-left: 32px;
+    display: inline-block;
+}
+.close_deal a{
+	text-decoration:none;
+	color:#fff;
+	text-transform:uppercase;
+	margin-top: 16px;
+	margin-left: 32px;
+    display: inline-block;
+}
+.close_btn a > span {
+	color:#fff;
+	font-size:40px;
+	padding-top:30px;
+	padding-left:40px;
+}
+.stylish-input-group .input-group-addon{
+    background: white !important;
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
